@@ -1,0 +1,1 @@
+create findsmallestnumber.js file
