@@ -56,10 +56,11 @@ function identical(empty, I) {
     for (let i = 0; i < n; i++) {
         for (let j = 0; i < n; j++) {
             if (empty[i][j] !== I[i][j]) {
-                return false;
+                return "no";
+
             }
         }
-        return true;
+        return "yes";
     }
 }
 console.log(identical(empty, I));
